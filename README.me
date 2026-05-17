@@ -1,0 +1,105 @@
+# Heart Disease Prediction using Neural Network
+
+# Project Overview
+This project uses a Neural Network (MLP - Multi Layer Perceptron) to predict whether a patient has heart disease or not based on medical attributes.
+
+The model was implemented using TensorFlow/Keras and trained on the Heart Disease dataset.
+
+
+#Dataset
+Dataset: Heart Disease Dataset
+
+The dataset contains medical information about patients such as:
+
+- Age
+- Sex
+- Chest Pain Type
+- Cholesterol
+- Blood Pressure
+- Maximum Heart Rate
+- And more...
+
+Target:
+- 1 → Heart Disease
+- 0 → No Heart Disease
+
+# Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- TensorFlow / Keras
+
+
+#  Neural Network Architecture
+
+The model consists of:
+
+1. Input Layer
+2. Hidden Layer (64 neurons, ReLU)
+3. Hidden Layer (32 neurons, ReLU)
+4. Output Layer (1 neuron, Sigmoid)
+
+#  Data Preprocessing
+
+The following preprocessing steps were applied:
+
+- Handling features and target
+- Train/Test split
+- Feature Scaling using StandardScaler
+
+---
+
+# raining Configuration
+
+- Optimizer: Adam
+- Loss Function: Binary Crossentropy
+- Epochs: 50
+- Batch Size: 16
+
+
+# Evaluation Metrics
+
+The model was evaluated using:
+
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+
+
+# Experiments
+
+## Experiment 1
+Changed activation function from ReLU to Tanh.
+
+## Experiment 2
+Added Dropout layer to reduce overfitting.
+
+# Visualization
+
+The project includes:
+- Training vs Validation Loss Curve
+- Training vs Validation Accuracy Curve
+
+#  How to Run the Project
+
+## 1. Clone the repository
+
+
+# Results
+
+The Neural Network achieved high accuracy in predicting heart disease.
+
+The experiments showed how activation functions and dropout layers affect model performance.
+
+#  Author
+
+Nourhan Mohsen
+
+# Future Improvements
+- Hyperparameter Tuning
+- Using Deep Neural Networks
+- Trying other optimizers
+- Deploying the model as a web application
